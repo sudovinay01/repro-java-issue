@@ -16,7 +16,7 @@ repositories {
 }
 
 dependencies {
-    testImplementation libs.testng
+    implementation libs.testng
 
     // This dependency is used by the application.
     implementation libs.guava
