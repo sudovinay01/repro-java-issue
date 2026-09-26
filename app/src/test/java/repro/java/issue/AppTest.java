@@ -7,9 +7,9 @@ import static org.testng.Assert.assertEquals;
 
 import org.testng.annotations.Test;
 
-class AppTest {
+public class AppTest {
     @Test
-    void appHasAGreeting() {
+    public void appHasAGreeting() {
         assertEquals(new App().getGreeting(), "Hello World!");
     }
 }
