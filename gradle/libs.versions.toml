@@ -3,8 +3,8 @@
 
 [versions]
 guava = "33.4.6-jre"
-junit-jupiter = "5.12.1"
+testng = "7.11.0"
 
 [libraries]
 guava = { module = "com.google.guava:guava", version.ref = "guava" }
-junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
+testng = { module = "org.testng:testng", version.ref = "testng" }

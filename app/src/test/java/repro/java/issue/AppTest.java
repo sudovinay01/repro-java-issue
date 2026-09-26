@@ -3,12 +3,13 @@
  */
 package repro.java.issue;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.testng.Assert.assertEquals;
+
+import org.testng.annotations.Test;
 
 class AppTest {
-    @Test void appHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
+    @Test
+    void appHasAGreeting() {
+        assertEquals(new App().getGreeting(), "Hello World!");
     }
 }
